@@ -1,0 +1,59 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #636e72;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3vh;
+}
+
+.AppTitle {
+  font-size: 5vh;
+}
+
+.ScoreBoard {
+  height: 12%;
+  width: 95%;
+}
+
+.ScoreContainer {
+  height: 50%;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 1px solid rgb(216, 223, 230);
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Question {
+  height: 8%;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 5vw;
+  text-align: center;
+  word-wrap: normal;
+  margin-top: 3%;
+}
+
+.MapContainer {
+  height: 50vh;
+  width: 97vw;
+}
+
+.PlaceButtonContainer {
+  position: absolute;
+  transform: translateY(94vh);
+}
+
+.PlaceButton {
+  height: 5vh;
+  width: 20vw;
+  background-color: aliceblue;
+}
